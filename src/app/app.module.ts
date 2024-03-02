@@ -36,5 +36,7 @@ import { AccountComponent } from './core/component/account/account/account.compo
     provideHttpClient(withInterceptors([urlInterceptor]))
   ],
   bootstrap: [AppComponent]
+  // test
+  
 })
 export class AppModule { }
